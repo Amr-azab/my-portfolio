@@ -1,0 +1,61 @@
+.HomePage {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  margin-top: 100px;
+  margin-bottom: -50px;
+  align-items: center;
+}
+.HomeText h1 {
+  font-weight: 600;
+  font-size: 38px;
+  letter-spacing: 0.7px;
+  padding-top: 10px;
+}
+.Avatar {
+  height: 350px;
+  width: 350px; /* Keep the width and height equal to form a perfect circle */
+  border-radius: 50%; /* This creates the circular shape */
+  /* Ensures the entire image fits within the circle */
+  border: 5px solid #fff; /* Optional: Add a border to make the circle stand out */
+  /* mix-blend-mode: screen; */
+}
+@media (max-width: 900px) {
+  .HomePage {
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    padding: 25px;
+  }
+  .HomeText {
+    text-align: left;
+    display: inline-block;
+  }
+  .Avatar {
+    height: 250px;
+    width: 250px; /* Keep the width and height equal to form a perfect circle */
+    border-radius: 50%; /* This creates the circular shape */
+    /* Ensures the entire image fits within the circle */
+    /* Optional: Add a border to make the circle stand out */
+    /* mix-blend-mode: screen; */
+  }
+}
+
+@media (max-width: 500px) {
+  .HomePage {
+    min-height: 70vh;
+  }
+
+  .HomeText h1 {
+    font-weight: 500;
+    font-size: 28px;
+  }
+  .Avatar {
+    height: 150px;
+    width: 150px; /* Keep the width and height equal to form a perfect circle */
+    border-radius: 50%; /* This creates the circular shape */
+    /* Ensures the entire image fits within the circle */
+    /* Optional: Add a border to make the circle stand out */
+    /* mix-blend-mode: screen; */
+  }
+}

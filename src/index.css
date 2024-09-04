@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#root {
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  --color: #04195f;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: radial-gradient(
+    1700px circle at 4.48% 0%,
+    #516c8b6f 0%,
+    #1a2431 100%
+  );
+  color: #e7e7e7;
+  min-height: 100vh;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+b {
+  font-weight: 900;
+  color: var(--color);
+}
+button {
+  font-size: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 25px 3% 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: var(--color);
+  color: #e7e7e7;
+  height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  border-style: none;
+}
+
+button:hover {
+  color: var(--color);
+  background-color: #e7e7e7;
+  transition: all ease-in-out 0.3s;
+}
