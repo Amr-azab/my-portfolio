@@ -51,6 +51,8 @@ const About = () => {
         <Skills skill="SQL" />
         <Skills skill="Express" />
         <Skills skill="NextJS" />
+        <Skills skill="Docker" />
+        <Skills skill="CSharp" />
       </div>
     </>
   );

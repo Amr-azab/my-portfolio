@@ -17,6 +17,8 @@ import {
   SiMongodb,
   SiExpress,
   SiNextdotjs,
+  SiDocker,
+  SiCsharp,
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 
@@ -34,12 +36,13 @@ const Skills = ({ skill }) => {
     Npm: <FaNpm />,
     Figma: <FaFigma />,
     TypeScript: <SiTypescript />,
-    Postman: <SiPostman />, // Postman icon
+    Postman: <SiPostman />,
     MongoDB: <SiMongodb />,
     SQL: <FaDatabase />,
     Express: <SiExpress />,
     NextJS: <SiNextdotjs />,
-    // Add Node.js to the list of skills
+    Docker: <SiDocker />,
+    CSharp: <SiCsharp />,
   };
 
   return (
