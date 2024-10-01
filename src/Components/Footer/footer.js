@@ -20,7 +20,7 @@ const Footer = () => {
           <FaLinkedin />
         </a>
 
-        <a href="mailTo:amr.mz@hotmail.com" target="_blank">
+        <a href="mailTo:amrazab930@gmail.com" target="_blank">
           <GrMail />
         </a>
       </div>
