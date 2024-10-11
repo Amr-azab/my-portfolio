@@ -53,6 +53,7 @@ const About = () => {
         <Skills skill="NextJS" />
         <Skills skill="Docker" />
         <Skills skill="CSharp" />
+        <Skills skill="DotNet" />
       </div>
     </>
   );

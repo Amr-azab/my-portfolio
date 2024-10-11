@@ -19,6 +19,7 @@ import {
   SiNextdotjs,
   SiDocker,
   SiCsharp,
+  SiDotnet,
 } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
 
@@ -43,6 +44,7 @@ const Skills = ({ skill }) => {
     NextJS: <SiNextdotjs />,
     Docker: <SiDocker />,
     CSharp: <SiCsharp />,
+    DotNet: <SiDotnet />,
   };
 
   return (
